@@ -1,0 +1,16 @@
+rank 4 [(0, 8891), (7, 28249), (6, 33926), (5, 63227), (3, 16682), (2, 10020), (1, 6762)]
+rank 3 [(6, 26853), (5, 2921), (4, 7813), (2, 51078), (1, 27586), (0, 72585), (7, 18489)]
+rank 5 [(2, 1597), (1, 3077), (0, 7460), (7, 2822), (6, 67645), (4, 32463), (3, 3295)]
+rank 2 [(4, 3963), (3, 60228), (1, 20258), (0, 49557), (7, 11895), (6, 13736), (5, 1774)]
+rank 1 [(2, 19735), (0, 133648), (7, 43140), (6, 32761), (5, 2939), (4, 3602), (3, 29022)]
+rank 7 [(6, 33486), (5, 3065), (4, 19204), (3, 18771), (2, 12300), (1, 40142), (0, 29754)]
+rank 6 [(4, 23036), (3, 31081), (2, 16765), (1, 38180), (0, 62765), (7, 35577), (5, 79014)]
+rank 0 [(7, 27792), (6, 52730), (5, 7230), (4, 5045), (3, 67238), (2, 42902), (1, 104420)]
+Process 4 has 464954 nodes, 13701627 edges 297197 inner nodes, and 12224203 inner edges.
+Process 5 has 432519 nodes, 13329470 edges 314160 inner nodes, and 11616946 inner edges.
+Process 3 has 522651 nodes, 20231218 edges 315326 inner nodes, and 17210426 inner edges.
+Process 2 has 460561 nodes, 14120526 edges 299150 inner nodes, and 12113402 inner edges.
+Process 7 has 454709 nodes, 18240191 edges 297987 inner nodes, and 15802525 inner edges.
+Process 6 has 583632 nodes, 14776286 edges 297214 inner nodes, and 10913960 inner edges.
+Process 1 has 577523 nodes, 21712390 edges 312676 inner nodes, and 17497092 inner edges.
+Process 0 has 622676 nodes, 22322993 edges 315319 inner nodes, and 16520851 inner edges.

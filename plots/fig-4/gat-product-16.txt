@@ -1,0 +1,128 @@
+Process 7 | Total Time 9.17 | Train Time 0.00 | Comm Time 0.00 | Reduce Time 0.00
+[MEM_LOG_TRAIN]                    0            591608832 optimizer.step()
+(rank 4) optimizer.step(): current 544.89MB, peak 3382.95MB, reserved 3672.00MB
+(rank 6) optimizer.step(): current 644.95MB, peak 3594.60MB, reserved 3958.00MB
+[MEM_LOG_TRAIN]                    0            688249344 optimizer.step()
+(rank 0) optimizer.step(): current 654.63MB, peak 3546.87MB, reserved 3782.00MB
+Process 004 | Epoch 00002 | Time(s) nan | Comm(s) nan | Reduce(s) nan | Loss 3.1022
+Process 4 | Total Time 9.16 | Train Time 0.00 | Comm Time 0.00 | Reduce Time 0.00
+Process 006 | Epoch 00002 | Time(s) nan | Comm(s) nan | Reduce(s) nan | Loss 0.5382
+(rank 1) optimizer.step(): current 825.34MB, peak 3786.78MB, reserved 4106.00MB
+Process 6 | Total Time 9.17 | Train Time 0.00 | Comm Time 0.00 | Reduce Time 0.00
+Process 000 | Epoch 00002 | Time(s) nan | Comm(s) nan | Reduce(s) nan | Loss 0.7243
+[hemeng_log],7,272040,6279160,157662,272040,4551092,6279160,100,45,0,3535508480,3739222016
+[hemeng_log],2,331580,11407028,157660,331580,8646270,11407028,100,44,0,4528212480,4892655616
+Process 0 | Total Time 9.12 | Train Time 0.00 | Comm Time 0.00 | Reduce Time 0.00
+Process 001 | Epoch 00002 | Time(s) nan | Comm(s) nan | Reduce(s) nan | Loss 3.5511
+Process 1 | Total Time 9.14 | Train Time 0.00 | Comm Time 0.00 | Reduce Time 0.00
+(rank 5) optimizer.step(): current 564.20MB, peak 3026.24MB, reserved 3312.00MB
+(rank 3) optimizer.step(): current 656.37MB, peak 3402.15MB, reserved 3672.00MB
+[hemeng_log],4,311563,4940444,148598,311563,3699572,4940444,100,45,0,3547280384,3850371072
+Process 005 | Epoch 00002 | Time(s) nan | Comm(s) nan | Reduce(s) nan | Loss 3.7392
+Process 003 | Epoch 00002 | Time(s) nan | Comm(s) nan | Reduce(s) nan | Loss 4.2044
+[hemeng_log],1,247554,10886736,150304,247554,9245992,10886736,100,47,0,3970726400,4305453056
+Process 5 | Total Time 9.19 | Train Time 0.00 | Comm Time 0.00 | Reduce Time 0.00
+Process 3 | Total Time 9.16 | Train Time 0.00 | Comm Time 0.00 | Reduce Time 0.00
+[hemeng_log],0,294909,7173681,148601,294909,5306795,7173681,100,45,0,3719167488,3965714432
+[hemeng_log],6,295380,7023379,157057,295380,5248523,7023379,100,44,0,3769209856,4150263808
+[hemeng_log],3,247906,7851130,148614,247906,6457792,7851130,100,46,0,3567415296,3850371072
+[hemeng_log],5,198460,6813677,148599,198460,6345399,6813677,100,45,0,3173242368,3472883712
+[MEM_LOG_TRAIN]           2973775872           4135378944 loss = loss_fcn(logits[train_mask], labels[train_mask])
+GATConv.forward
+[MEM_LOG_TRAIN]              -215552           4135163392 optimizer.zero_grad(set_to_none=True)
+(rank 10) logits = model(): current 3274.00MB, peak 3615.14MB, reserved 3802.00MB
+[MEM_LOG_TRAIN]           2507294208           3270891520 loss = loss_fcn(logits[train_mask], labels[train_mask])
+[MEM_LOG_TRAIN]              -215552           3270675968 optimizer.zero_grad(set_to_none=True)
+(rank 11) logits = model(): current 3822.38MB, peak 4223.67MB, reserved 4484.00MB
+[MEM_LOG_TRAIN]           2786867200           3782571520 loss = loss_fcn(logits[train_mask], labels[train_mask])
+[MEM_LOG_TRAIN]              -215552           3782355968 optimizer.zero_grad(set_to_none=True)
+(rank 12) logits = model(): current 4320.92MB, peak 4786.36MB, reserved 5276.00MB
+[MEM_LOG_TRAIN]           3133634560           4284059648 loss = loss_fcn(logits[train_mask], labels[train_mask])
+[MEM_LOG_TRAIN]              -215552           4283844096 optimizer.zero_grad(set_to_none=True)
+(rank 14) logits = model(): current 4045.51MB, peak 4481.27MB, reserved 4708.00MB
+[MEM_LOG_TRAIN]           2987961856           4024459264 loss = loss_fcn(logits[train_mask], labels[train_mask])
+[MEM_LOG_TRAIN]              -215552           4024243712 optimizer.zero_grad(set_to_none=True)
+GATConv.forward
+(rank 13) logits = model(): current 4207.26MB, peak 4665.75MB, reserved 4940.00MB
+[MEM_LOG_TRAIN]           3107848192           4186383872 loss = loss_fcn(logits[train_mask], labels[train_mask])
+[MEM_LOG_TRAIN]              -215552           4186168320 optimizer.zero_grad(set_to_none=True)
+[MEM_LOG_TRAIN]          -2660171264            807037952 loss.backward()
+[MEM_LOG_TRAIN]          -2202920960            576432128 loss.backward()
+[MEM_LOG_TRAIN]          -2561550848            709125120 loss.backward()
+(rank 9) loss.backward(): current 549.67MB, peak 3052.31MB, reserved 3326.00MB
+[MEM_LOG_TRAIN]          -3218365952           1065478144 loss.backward()
+[MEM_LOG_TRAIN]               -66048            576366080 pre_reduce = time.time()
+[MEM_LOG_TRAIN]          -2863187456            919168512 loss.backward()
+[MEM_LOG_TRAIN]          -3066767872           1068395520 loss.backward()
+(rank 8) loss.backward(): current 769.59MB, peak 3843.73MB, reserved 4116.00MB
+[MEM_LOG_TRAIN]               -66048            806971904 pre_reduce = time.time()
+(rank 10) loss.backward(): current 676.27MB, peak 3615.14MB, reserved 3802.00MB
+[MEM_LOG_TRAIN]                    0            709125120 pre_reduce = time.time()
+[MEM_LOG_TRAIN]          -3059835904            964407808 loss.backward()
+(rank 11) loss.backward(): current 876.59MB, peak 4223.67MB, reserved 4594.00MB
+[MEM_LOG_TRAIN]                    0            919168512 pre_reduce = time.time()
+(rank 12) loss.backward(): current 1016.12MB, peak 4786.36MB, reserved 5398.00MB
+[MEM_LOG_TRAIN]                    0           1065478144 pre_reduce = time.time()
+(rank 15) loss.backward(): current 1018.90MB, peak 4635.61MB, reserved 5142.00MB
+[MEM_LOG_TRAIN]                    0           1068395520 pre_reduce = time.time()
+[MEM_LOG_TRAIN]          -3182880256           1003288064 loss.backward()
+(rank 14) loss.backward(): current 919.73MB, peak 4481.27MB, reserved 4708.00MB
+[MEM_LOG_TRAIN]                    0            964407808 pre_reduce = time.time()
+(rank 13) loss.backward(): current 956.81MB, peak 4665.75MB, reserved 4940.00MB
+[MEM_LOG_TRAIN]                -1536           1003286528 pre_reduce = time.time()
+[MEM_LOG_TRAIN]               -53760            806918144 ctx.reducer.synchronize()
+[MEM_LOG_TRAIN]                    0            806918144 reduce_time = time.time() - pre_reduce
+[MEM_LOG_TRAIN]               -53760            709071360 ctx.reducer.synchronize()
+[MEM_LOG_TRAIN]               -53760            576312320 ctx.reducer.synchronize()
+[MEM_LOG_TRAIN]               -52224           1003234304 ctx.reducer.synchronize()
+[MEM_LOG_TRAIN]               -53760           1068341760 ctx.reducer.synchronize()
+[MEM_LOG_TRAIN]               -53760           1065424384 ctx.reducer.synchronize()
+[MEM_LOG_TRAIN]                    0           1003234304 reduce_time = time.time() - pre_reduce
+[MEM_LOG_TRAIN]                    0            709071360 reduce_time = time.time() - pre_reduce
+[MEM_LOG_TRAIN]                    0            576312320 reduce_time = time.time() - pre_reduce
+[MEM_LOG_TRAIN]               -53760            919114752 ctx.reducer.synchronize()
+[MEM_LOG_TRAIN]                    0           1065424384 reduce_time = time.time() - pre_reduce
+[MEM_LOG_TRAIN]                    0           1068341760 reduce_time = time.time() - pre_reduce
+[MEM_LOG_TRAIN]               -53760            964354048 ctx.reducer.synchronize()
+[MEM_LOG_TRAIN]                    0            919114752 reduce_time = time.time() - pre_reduce
+[MEM_LOG_TRAIN]                    0            964354048 reduce_time = time.time() - pre_reduce
+[MEM_LOG_TRAIN]                    0           1003234304 optimizer.step()
+(rank 13) optimizer.step(): current 956.76MB, peak 4665.75MB, reserved 4940.00MB
+Process 013 | Epoch 00002 | Time(s) nan | Comm(s) nan | Reduce(s) nan | Loss 3.5245
+[MEM_LOG_TRAIN]                    0            806918144 optimizer.step()
+Process 13 | Total Time 9.13 | Train Time 0.00 | Comm Time 0.00 | Reduce Time 0.00
+[MEM_LOG_TRAIN]                    0            576312320 optimizer.step()
+[MEM_LOG_TRAIN]                    0           1065424384 optimizer.step()
+[MEM_LOG_TRAIN]                    0            964354048 optimizer.step()
+[MEM_LOG_TRAIN]                    0            709071360 optimizer.step()
+[hemeng_log],13,405917,11133795,157617,405917,7675611,11133795,100,46,0,4892389376,5179965440
+(rank 8) optimizer.step(): current 769.54MB, peak 3843.73MB, reserved 4116.00MB
+[MEM_LOG_TRAIN]                    0            919114752 optimizer.step()
+Process 008 | Epoch 00002 | Time(s) nan | Comm(s) nan | Reduce(s) nan | Loss 2.2815
+[MEM_LOG_TRAIN]                    0           1068341760 optimizer.step()
+(rank 12) optimizer.step(): current 1016.07MB, peak 4786.36MB, reserved 5398.00MB
+Process 8 | Total Time 9.17 | Train Time 0.00 | Comm Time 0.00 | Reduce Time 0.00
+(rank 9) optimizer.step(): current 549.61MB, peak 3052.31MB, reserved 3326.00MB
+Process 012 | Epoch 00002 | Time(s) nan | Comm(s) nan | Reduce(s) nan | Loss 3.5393
+Process 12 | Total Time 9.13 | Train Time 0.00 | Comm Time 0.00 | Reduce Time 0.00
+Process 009 | Epoch 00002 | Time(s) nan | Comm(s) nan | Reduce(s) nan | Loss 2.8090
+Process 9 | Total Time 9.17 | Train Time 0.00 | Comm Time 0.00 | Reduce Time 0.00
+(rank 10) optimizer.step(): current 676.22MB, peak 3615.14MB, reserved 3802.00MB
+(rank 11) optimizer.step(): current 876.54MB, peak 4223.67MB, reserved 4594.00MB
+(rank 14) optimizer.step(): current 919.68MB, peak 4481.27MB, reserved 4708.00MB
+Process 010 | Epoch 00002 | Time(s) nan | Comm(s) nan | Reduce(s) nan | Loss 3.4715
+(rank 15) optimizer.step(): current 1018.85MB, peak 4635.61MB, reserved 5142.00MB
+Process 011 | Epoch 00002 | Time(s) nan | Comm(s) nan | Reduce(s) nan | Loss 3.1099
+Process 10 | Total Time 9.17 | Train Time 0.00 | Comm Time 0.00 | Reduce Time 0.00
+Process 11 | Total Time 9.15 | Train Time 0.00 | Comm Time 0.00 | Reduce Time 0.00
+Process 014 | Epoch 00002 | Time(s) nan | Comm(s) nan | Reduce(s) nan | Loss 2.8966
+Process 015 | Epoch 00002 | Time(s) nan | Comm(s) nan | Reduce(s) nan | Loss 2.8396
+Process 14 | Total Time 9.14 | Train Time 0.00 | Comm Time 0.00 | Reduce Time 0.00
+Process 15 | Total Time 9.13 | Train Time 0.00 | Comm Time 0.00 | Reduce Time 0.00
+[hemeng_log],12,405419,12362700,157520,405419,8094798,12362700,100,46,0,5018866176,5660213248
+[hemeng_log],8,287526,9384519,157327,287526,7354375,9384519,100,45,0,4030439936,4315938816
+[hemeng_log],9,216333,6347347,148601,216333,5562805,6347347,100,44,0,3200576512,3487563776
+[hemeng_log],10,298632,7352447,148699,298632,5848333,7352447,100,45,0,3790748160,3986685952
+[hemeng_log],11,342435,10392201,149005,342435,8209129,10392201,100,46,0,4428835328,4817158144
+[hemeng_log],14,382821,10752820,155502,382821,7385180,10752820,100,44,0,4698948096,4936695808
+[hemeng_log],15,355874,12994279,157663,355874,9607097,12994279,100,46,0,4860789248,5391777792

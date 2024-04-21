@@ -1,0 +1,494 @@
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 6.5.0-25-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+hemeng ogbn-arxiv graphsage_partition 32 2 32 1 8
+Namespace(backend='gloo', data_path='./dataset/', dataset='ogbn-arxiv', dropout=0.3, eval=True, fix_seed=True, graph_name='ogbn-arxiv-32-metis-cut-trans-8-8-8-8', heads=1, inductive=False, log_every=10, lr=0.003, master_addr='192.168.2.1', model='graphsage_partition', n_class=10, n_edges=10000, n_epochs=30, n_feat=100, n_hidden=32, n_layers=2, n_linear=0, n_nodes=1000, n_partitions=32, node_rank=1, norm='layer', part_path='./partition/', partition_method='metis', partition_obj='cut', parts_per_node=10, port=18119, sampling_rate=1.0, save_model=False, seed=0, skip_partition=False, sub_rate=None, swap_bits=0, swap_rate=0, topolist=[8, 8, 8, 8], train_ratio=0.9, use_pp=True, uvm=False, val_ratio=0.05, weight=False, weight_decay=0)
+process 8 started
+process 9 started
+process 10 started
+process 11 started
+process 12 started
+process 13 started
+process 14 started
+loading partitions
+begin to load ogb dataset ogbn-arxiv from ./dataset/
+for_commute,bns,rank 8 [(16, 71), (15, 69), (14, 87), (13, 192), (12, 128), (11, 559), (10, 414), (9, 575), (7, 118), (6, 121), (5, 102), (4, 364), (3, 85), (2, 52), (1, 36), (0, 52), (31, 36), (30, 96), (29, 11), (28, 24), (27, 16), (26, 15), (25, 14), (24, 68), (23, 28), (22, 28), (21, 53), (20, 42), (19, 119), (18, 79), (17, 70)] ogbn-arxiv-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-arxiv from ./dataset/
+for_commute,bns,rank 13 [(26, 17), (25, 6), (24, 14), (23, 28), (22, 38), (21, 111), (20, 84), (19, 154), (18, 49), (17, 35), (16, 41), (15, 139), (14, 172), (12, 232), (11, 177), (10, 289), (9, 172), (8, 205), (7, 255), (6, 231), (5, 67), (4, 112), (3, 75), (2, 37), (1, 53), (0, 63), (31, 14), (30, 34), (29, 24), (28, 24), (27, 11)] ogbn-arxiv-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-arxiv from ./dataset/
+for_commute,bns,rank 9 [(18, 65), (17, 94), (16, 114), (15, 55), (14, 106), (13, 168), (12, 85), (11, 603), (10, 307), (8, 622), (7, 126), (6, 113), (5, 44), (4, 287), (3, 42), (2, 28), (1, 29), (0, 15), (31, 16), (30, 29), (29, 15), (28, 8), (27, 18), (26, 18), (25, 32), (24, 13), (23, 33), (22, 21), (21, 26), (20, 33), (19, 59)] ogbn-arxiv-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-arxiv from ./dataset/
+for_commute,bns,rank 12 [(24, 171), (23, 38), (22, 59), (21, 141), (20, 88), (19, 277), (18, 28), (17, 51), (16, 92), (15, 576), (14, 465), (13, 229), (11, 383), (10, 349), (9, 90), (8, 122), (7, 161), (6, 151), (5, 206), (4, 211), (3, 350), (2, 144), (1, 179), (0, 200), (31, 387), (30, 543), (29, 463), (28, 239), (27, 459), (26, 441), (25, 234)] ogbn-arxiv-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-arxiv from ./dataset/
+for_commute,bns,rank 15 [(30, 522), (29, 309), (28, 358), (27, 493), (26, 534), (25, 352), (24, 560), (23, 55), (22, 33), (21, 171), (20, 88), (19, 168), (18, 32), (17, 51), (16, 73), (14, 1476), (13, 115), (12, 562), (11, 115), (10, 172), (9, 40), (8, 56), (7, 111), (6, 68), (5, 99), (4, 230), (3, 296), (2, 139), (1, 554), (0, 427), (31, 370)] ogbn-arxiv-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-arxiv from ./dataset/
+for_commute,bns,rank 14 [(28, 249), (27, 247), (26, 249), (25, 292), (24, 374), (23, 45), (22, 51), (21, 79), (20, 80), (19, 103), (18, 22), (17, 80), (16, 65), (15, 2223), (13, 168), (12, 533), (11, 214), (10, 276), (9, 105), (8, 84), (7, 180), (6, 185), (5, 110), (4, 164), (3, 187), (2, 81), (1, 175), (0, 152), (31, 181), (30, 257), (29, 156)] ogbn-arxiv-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-arxiv from ./dataset/
+for_commute,bns,rank 10 [(20, 86), (19, 161), (18, 61), (17, 78), (16, 75), (15, 213), (14, 254), (13, 218), (12, 322), (11, 648), (9, 349), (8, 459), (7, 149), (6, 46), (5, 255), (4, 216), (3, 106), (2, 86), (1, 48), (0, 52), (31, 57), (30, 122), (29, 18), (28, 21), (27, 23), (26, 58), (25, 33), (24, 18), (23, 52), (22, 51), (21, 77)] ogbn-arxiv-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-arxiv from ./dataset/
+for_commute,bns,rank 11 [(22, 194), (21, 64), (20, 36), (19, 318), (18, 93), (17, 124), (16, 488), (15, 155), (14, 208), (13, 189), (12, 353), (10, 716), (9, 568), (8, 620), (7, 157), (6, 85), (5, 196), (4, 319), (3, 91), (2, 79), (1, 48), (0, 81), (31, 250), (30, 173), (29, 30), (28, 51), (27, 95), (26, 130), (25, 68), (24, 37), (23, 50)] ogbn-arxiv-32-metis-cut-trans-8-8-8-8 32 10
+process 15 started
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 6.5.0-25-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+hemeng ogbn-products graphsage_partition 32 2 32 1 8
+Namespace(backend='gloo', data_path='./dataset/', dataset='ogbn-products', dropout=0.3, eval=True, fix_seed=True, graph_name='ogbn-products-32-metis-cut-trans-8-8-8-8', heads=1, inductive=False, log_every=10, lr=0.003, master_addr='192.168.2.1', model='graphsage_partition', n_class=10, n_edges=10000, n_epochs=30, n_feat=100, n_hidden=32, n_layers=2, n_linear=0, n_nodes=1000, n_partitions=32, node_rank=1, norm='layer', part_path='./partition/', partition_method='metis', partition_obj='cut', parts_per_node=10, port=18119, sampling_rate=1.0, save_model=False, seed=0, skip_partition=False, sub_rate=None, swap_bits=0, swap_rate=0, topolist=[8, 8, 8, 8], train_ratio=0.9, use_pp=True, uvm=False, val_ratio=0.05, weight=False, weight_decay=0)
+process 8 started
+process 9 started
+process 10 started
+process 11 started
+process 12 started
+process 13 started
+process 14 started
+loading partitions
+begin to load ogb dataset ogbn-products from ./dataset/
+for_commute,bns,rank 9 [(18, 12729), (17, 1786), (16, 4610), (15, 5669), (14, 1423), (13, 2093), (12, 541), (11, 4122), (10, 4522), (8, 17824), (7, 3922), (6, 5337), (5, 1045), (4, 354), (3, 5919), (2, 5333), (1, 2970), (0, 7286), (31, 2260), (30, 1324), (29, 3764), (28, 859), (27, 702), (26, 955), (25, 2871), (24, 3446), (23, 1376), (22, 1063), (21, 2603), (20, 3566), (19, 11185)] ogbn-products-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-products from ./dataset/
+for_commute,bns,rank 8 [(16, 6194), (15, 4461), (14, 1228), (13, 1866), (12, 586), (11, 11509), (10, 9774), (9, 18048), (7, 749), (6, 660), (5, 1814), (4, 963), (3, 1320), (2, 839), (1, 983), (0, 2732), (31, 3696), (30, 1465), (29, 1356), (28, 2406), (27, 1716), (26, 2269), (25, 2866), (24, 2783), (23, 1071), (22, 2148), (21, 3105), (20, 5103), (19, 12809), (18, 16753), (17, 1911)] ogbn-products-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-products from ./dataset/
+for_commute,bns,rank 11 [(22, 980), (21, 2157), (20, 2964), (19, 6347), (18, 4726), (17, 1456), (16, 3723), (15, 9478), (14, 726), (13, 1361), (12, 591), (10, 14117), (9, 4888), (8, 13535), (7, 1115), (6, 1454), (5, 1096), (4, 1347), (3, 509), (2, 648), (1, 1473), (0, 739), (31, 1693), (30, 2053), (29, 1292), (28, 2005), (27, 3082), (26, 3703), (25, 3892), (24, 3503), (23, 1678)] ogbn-products-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-products from ./dataset/
+for_commute,bns,rank 10 [(20, 1728), (19, 6209), (18, 2970), (17, 1450), (16, 3249), (15, 5658), (14, 792), (13, 1556), (12, 1657), (11, 14034), (9, 5921), (8, 13900), (7, 723), (6, 1504), (5, 711), (4, 1266), (3, 501), (2, 1227), (1, 879), (0, 1366), (31, 2231), (30, 4710), (29, 735), (28, 1177), (27, 1601), (26, 1281), (25, 2757), (24, 3608), (23, 1341), (22, 1009), (21, 1839)] ogbn-products-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-products from ./dataset/
+for_commute,bns,rank 12 [(24, 2473), (23, 806), (22, 724), (21, 1302), (20, 504), (19, 332), (18, 627), (17, 658), (16, 356), (15, 360), (14, 614), (13, 10205), (11, 406), (10, 911), (9, 529), (8, 476), (7, 139), (6, 65), (5, 49), (4, 73), (3, 52), (2, 42), (1, 323), (0, 58), (31, 2062), (30, 9958), (29, 511), (28, 1419), (27, 935), (26, 1463), (25, 998)] ogbn-products-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-products from ./dataset/
+for_commute,bns,rank 13 [(26, 1430), (25, 3180), (24, 5988), (23, 1000), (22, 1377), (21, 2842), (20, 2357), (19, 2601), (18, 1711), (17, 789), (16, 1576), (15, 836), (14, 854), (12, 12642), (11, 1253), (10, 1613), (9, 1876), (8, 1796), (7, 985), (6, 255), (5, 193), (4, 388), (3, 445), (2, 800), (1, 1787), (0, 531), (31, 3413), (30, 9594), (29, 1089), (28, 1590), (27, 1314)] ogbn-products-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-products from ./dataset/
+for_commute,bns,rank 14 [(28, 154), (27, 313), (26, 224), (25, 313), (24, 2261), (23, 93), (22, 109), (21, 129), (20, 251), (19, 756), (18, 215), (17, 245), (16, 428), (15, 1438), (13, 1241), (12, 1140), (11, 687), (10, 676), (9, 1611), (8, 1327), (7, 780), (6, 1037), (5, 359), (4, 456), (3, 389), (2, 934), (1, 388), (0, 548), (31, 178), (30, 189), (29, 164)] ogbn-products-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-products from ./dataset/
+for_commute,bns,rank 15 [(30, 1669), (29, 902), (28, 354), (27, 754), (26, 675), (25, 922), (24, 801), (23, 371), (22, 381), (21, 717), (20, 1024), (19, 1484), (18, 441), (17, 565), (16, 1211), (14, 1339), (13, 867), (12, 580), (11, 7650), (10, 5593), (9, 6223), (8, 3684), (7, 6493), (6, 7695), (5, 8192), (4, 6296), (3, 4299), (2, 7993), (1, 2190), (0, 2628), (31, 376)] ogbn-products-32-metis-cut-trans-8-8-8-8 32 10
+process 15 started
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 6.5.0-25-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+hemeng yelp graphsage_partition 32 2 32 1 8
+Namespace(backend='gloo', data_path='./dataset/', dataset='yelp', dropout=0.3, eval=True, fix_seed=True, graph_name='yelp-32-metis-cut-trans-8-8-8-8', heads=1, inductive=False, log_every=10, lr=0.003, master_addr='192.168.2.1', model='graphsage_partition', n_class=10, n_edges=10000, n_epochs=30, n_feat=100, n_hidden=32, n_layers=2, n_linear=0, n_nodes=1000, n_partitions=32, node_rank=1, norm='layer', part_path='./partition/', partition_method='metis', partition_obj='cut', parts_per_node=10, port=18119, sampling_rate=1.0, save_model=False, seed=0, skip_partition=False, sub_rate=None, swap_bits=0, swap_rate=0, topolist=[8, 8, 8, 8], train_ratio=0.9, use_pp=True, uvm=False, val_ratio=0.05, weight=False, weight_decay=0)
+process 8 started
+process 9 started
+process 10 started
+process 11 started
+process 12 started
+process 13 started
+process 14 started
+loading partitions
+for_commute,bns,rank 15 [(30, 2007), (29, 2826), (28, 3951), (27, 1451), (26, 2548), (25, 4248), (24, 2617), (23, 900), (22, 1474), (21, 907), (20, 1392), (19, 1052), (18, 1230), (17, 3262), (16, 1264), (14, 13575), (13, 7625), (12, 12175), (11, 7846), (10, 6586), (9, 6854), (8, 6045), (7, 1307), (6, 1693), (5, 994), (4, 1816), (3, 1394), (2, 1455), (1, 1872), (0, 730), (31, 1575)] yelp-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+for_commute,bns,rank 14 [(28, 2873), (27, 1227), (26, 2406), (25, 3633), (24, 2253), (23, 737), (22, 873), (21, 589), (20, 1127), (19, 1049), (18, 1262), (17, 2222), (16, 1655), (15, 12377), (13, 9036), (12, 9847), (11, 7337), (10, 5773), (9, 6021), (8, 5503), (7, 1111), (6, 1425), (5, 842), (4, 1513), (3, 1317), (2, 1348), (1, 1800), (0, 592), (31, 1008), (30, 1352), (29, 2658)] yelp-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+for_commute,bns,rank 13 [(26, 1322), (25, 2379), (24, 1285), (23, 558), (22, 827), (21, 525), (20, 983), (19, 829), (18, 1108), (17, 2553), (16, 1448), (15, 6946), (14, 8364), (12, 8096), (11, 7920), (10, 6494), (9, 7495), (8, 6487), (7, 1245), (6, 1640), (5, 895), (4, 1614), (3, 1295), (2, 1518), (1, 1942), (0, 764), (31, 867), (30, 875), (29, 2201), (28, 2744), (27, 889)] yelp-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+for_commute,bns,rank 12 [(24, 1443), (23, 792), (22, 1563), (21, 642), (20, 1109), (19, 620), (18, 513), (17, 1231), (16, 649), (15, 8693), (14, 8527), (13, 8264), (11, 4825), (10, 2742), (9, 3441), (8, 2678), (7, 828), (6, 1330), (5, 798), (4, 799), (3, 732), (2, 1325), (1, 807), (0, 1213), (31, 1789), (30, 1344), (29, 2475), (28, 1379), (27, 743), (26, 1090), (25, 2293)] yelp-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+for_commute,bns,rank 10 [(20, 1064), (19, 1018), (18, 1185), (17, 2750), (16, 1381), (15, 6080), (14, 5661), (13, 6392), (12, 3687), (11, 5776), (9, 7637), (8, 6975), (7, 1971), (6, 2470), (5, 1487), (4, 2616), (3, 1763), (2, 2147), (1, 2131), (0, 683), (31, 682), (30, 751), (29, 1223), (28, 2521), (27, 957), (26, 1401), (25, 1976), (24, 1364), (23, 701), (22, 1082), (21, 601)] yelp-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+for_commute,bns,rank 11 [(22, 1224), (21, 778), (20, 1254), (19, 1134), (18, 1300), (17, 3023), (16, 1464), (15, 7882), (14, 7493), (13, 8934), (12, 6450), (10, 6233), (9, 6534), (8, 6371), (7, 1478), (6, 1740), (5, 1225), (4, 2126), (3, 1413), (2, 1494), (1, 1798), (0, 562), (31, 1341), (30, 1374), (29, 2388), (28, 3230), (27, 1243), (26, 2143), (25, 3154), (24, 1790), (23, 1218)] yelp-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+for_commute,bns,rank 9 [(18, 1076), (17, 2715), (16, 1287), (15, 6326), (14, 5581), (13, 7058), (12, 4388), (11, 6017), (10, 7781), (8, 8597), (7, 2461), (6, 3739), (5, 2386), (4, 3875), (3, 3765), (2, 3565), (1, 2727), (0, 1275), (31, 669), (30, 714), (29, 1297), (28, 2649), (27, 847), (26, 1227), (25, 2001), (24, 1087), (23, 532), (22, 1052), (21, 554), (20, 1064), (19, 848)] yelp-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+for_commute,bns,rank 8 [(16, 1385), (15, 5669), (14, 5245), (13, 6537), (12, 3412), (11, 5536), (10, 6757), (9, 8254), (7, 2829), (6, 4832), (5, 2039), (4, 3776), (3, 1996), (2, 2104), (1, 2094), (0, 807), (31, 797), (30, 836), (29, 2540), (28, 2638), (27, 1291), (26, 1393), (25, 2026), (24, 1309), (23, 690), (22, 1028), (21, 653), (20, 1034), (19, 1103), (18, 1302), (17, 2980)] yelp-32-metis-cut-trans-8-8-8-8 32 10
+process 15 started
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 6.5.0-25-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+hemeng reddit graphsage_partition 32 2 32 1 8
+Namespace(backend='gloo', data_path='./dataset/', dataset='reddit', dropout=0.3, eval=True, fix_seed=True, graph_name='reddit-32-metis-cut-trans-8-8-8-8', heads=1, inductive=False, log_every=10, lr=0.003, master_addr='192.168.2.1', model='graphsage_partition', n_class=10, n_edges=10000, n_epochs=30, n_feat=100, n_hidden=32, n_layers=2, n_linear=0, n_nodes=1000, n_partitions=32, node_rank=1, norm='layer', part_path='./partition/', partition_method='metis', partition_obj='cut', parts_per_node=10, port=18119, sampling_rate=1.0, save_model=False, seed=0, skip_partition=False, sub_rate=None, swap_bits=0, swap_rate=0, topolist=[8, 8, 8, 8], train_ratio=0.9, use_pp=True, uvm=False, val_ratio=0.05, weight=False, weight_decay=0)
+process 8 started
+process 9 started
+process 10 started
+process 11 started
+process 12 started
+process 13 started
+process 14 started
+loading partitions
+for_commute,bns,rank 8 [(16, 650), (15, 1525), (14, 570), (13, 720), (12, 330), (11, 1763), (10, 1529), (9, 4128), (7, 401), (6, 1323), (5, 438), (4, 427), (3, 651), (2, 1362), (1, 2766), (0, 2656), (31, 1637), (30, 1432), (29, 1724), (28, 2267), (27, 801), (26, 651), (25, 1856), (24, 1698), (23, 502), (22, 896), (21, 663), (20, 1491), (19, 643), (18, 517), (17, 635)] reddit-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+for_commute,bns,rank 9 [(18, 996), (17, 1109), (16, 1684), (15, 3218), (14, 2020), (13, 1436), (12, 873), (11, 1408), (10, 1368), (8, 3556), (7, 868), (6, 1901), (5, 751), (4, 889), (3, 1407), (2, 1979), (1, 1935), (0, 2574), (31, 2312), (30, 2115), (29, 2656), (28, 2830), (27, 1208), (26, 1082), (25, 2093), (24, 2778), (23, 603), (22, 1458), (21, 842), (20, 2133), (19, 957)] reddit-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+for_commute,bns,rank 11 [(22, 1018), (21, 795), (20, 1454), (19, 686), (18, 453), (17, 476), (16, 717), (15, 2272), (14, 1402), (13, 1122), (12, 978), (10, 6048), (9, 3539), (8, 1578), (7, 725), (6, 1384), (5, 535), (4, 527), (3, 395), (2, 1431), (1, 170), (0, 222), (31, 1807), (30, 1570), (29, 1917), (28, 2700), (27, 989), (26, 932), (25, 2121), (24, 2144), (23, 539)] reddit-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+for_commute,bns,rank 10 [(20, 1633), (19, 792), (18, 1120), (17, 1583), (16, 1073), (15, 5989), (14, 5538), (13, 3167), (12, 3002), (11, 7146), (9, 5184), (8, 6069), (7, 676), (6, 1264), (5, 485), (4, 498), (3, 862), (2, 1508), (1, 1088), (0, 1070), (31, 1802), (30, 1701), (29, 1951), (28, 2536), (27, 895), (26, 968), (25, 2082), (24, 2142), (23, 471), (22, 1052), (21, 881)] reddit-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+for_commute,bns,rank 13 [(26, 1000), (25, 2003), (24, 2099), (23, 711), (22, 1346), (21, 845), (20, 1514), (19, 2573), (18, 1000), (17, 726), (16, 1403), (15, 6931), (14, 6581), (12, 7137), (11, 6225), (10, 5482), (9, 5750), (8, 4098), (7, 560), (6, 1395), (5, 448), (4, 604), (3, 1415), (2, 1713), (1, 369), (0, 344), (31, 1833), (30, 2055), (29, 2263), (28, 2793), (27, 974)] reddit-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+for_commute,bns,rank 12 [(24, 1515), (23, 352), (22, 904), (21, 370), (20, 953), (19, 1709), (18, 563), (17, 291), (16, 688), (15, 4114), (14, 3656), (13, 6135), (11, 1236), (10, 690), (9, 1283), (8, 803), (7, 400), (6, 749), (5, 312), (4, 262), (3, 687), (2, 1042), (1, 37), (0, 47), (31, 1196), (30, 1366), (29, 1611), (28, 2144), (27, 493), (26, 519), (25, 1148)] reddit-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+for_commute,bns,rank 14 [(28, 2321), (27, 379), (26, 709), (25, 1589), (24, 1952), (23, 595), (22, 945), (21, 533), (20, 1053), (19, 802), (18, 692), (17, 937), (16, 1086), (15, 7014), (13, 4006), (12, 4251), (11, 5023), (10, 4012), (9, 4153), (8, 863), (7, 443), (6, 1017), (5, 337), (4, 318), (3, 991), (2, 1371), (1, 75), (0, 99), (31, 1549), (30, 1758), (29, 1626)] reddit-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+for_commute,bns,rank 15 [(30, 2519), (29, 2672), (28, 3060), (27, 1022), (26, 1388), (25, 2585), (24, 2876), (23, 890), (22, 1720), (21, 1084), (20, 1946), (19, 1643), (18, 1281), (17, 1230), (16, 1746), (14, 6821), (13, 5016), (12, 4505), (11, 2787), (10, 1987), (9, 5409), (8, 1534), (7, 823), (6, 1826), (5, 776), (4, 795), (3, 1833), (2, 2179), (1, 131), (0, 222), (31, 2293)] reddit-32-metis-cut-trans-8-8-8-8 32 10
+process 15 started
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 6.5.0-25-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+hemeng ogbn-mag graphsage_partition 32 2 32 1 8
+Namespace(backend='gloo', data_path='./dataset/', dataset='ogbn-mag', dropout=0.3, eval=True, fix_seed=True, graph_name='ogbn-mag-32-metis-cut-trans-8-8-8-8', heads=1, inductive=False, log_every=10, lr=0.003, master_addr='192.168.2.1', model='graphsage_partition', n_class=10, n_edges=10000, n_epochs=30, n_feat=100, n_hidden=32, n_layers=2, n_linear=0, n_nodes=1000, n_partitions=32, node_rank=1, norm='layer', part_path='./partition/', partition_method='metis', partition_obj='cut', parts_per_node=10, port=18119, sampling_rate=1.0, save_model=False, seed=0, skip_partition=False, sub_rate=None, swap_bits=0, swap_rate=0, topolist=[8, 8, 8, 8], train_ratio=0.9, use_pp=True, uvm=False, val_ratio=0.05, weight=False, weight_decay=0)
+process 8 started
+process 9 started
+process 10 started
+process 11 started
+process 12 started
+process 13 started
+process 14 started
+loading partitions
+begin to load ogb dataset ogbn-mag from ./dataset/
+for_commute,bns,rank 13 [(26, 1014), (25, 780), (24, 777), (23, 1471), (22, 1024), (21, 895), (20, 1171), (19, 1670), (18, 2010), (17, 3358), (16, 2211), (15, 10761), (14, 13522), (12, 16499), (11, 3131), (10, 3689), (9, 4376), (8, 3976), (7, 2340), (6, 1641), (5, 4478), (4, 10403), (3, 1474), (2, 2244), (1, 6417), (0, 2582), (31, 770), (30, 841), (29, 1129), (28, 912), (27, 771)] ogbn-mag-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-mag from ./dataset/
+for_commute,bns,rank 12 [(24, 1524), (23, 1588), (22, 1578), (21, 989), (20, 1739), (19, 1105), (18, 1314), (17, 3014), (16, 2379), (15, 20419), (14, 19835), (13, 17550), (11, 5684), (10, 3602), (9, 6453), (8, 4714), (7, 3756), (6, 1530), (5, 2201), (4, 5801), (3, 1311), (2, 1624), (1, 2459), (0, 2128), (31, 2033), (30, 2212), (29, 2346), (28, 2544), (27, 1777), (26, 2099), (25, 1280)] ogbn-mag-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-mag from ./dataset/
+for_commute,bns,rank 14 [(28, 2184), (27, 1274), (26, 1497), (25, 1721), (24, 1389), (23, 2454), (22, 2367), (21, 1240), (20, 1931), (19, 1425), (18, 1888), (17, 2892), (16, 2077), (15, 25954), (13, 17064), (12, 19958), (11, 6046), (10, 5289), (9, 8813), (8, 4212), (7, 4075), (6, 2654), (5, 3750), (4, 8714), (3, 1741), (2, 2245), (1, 3758), (0, 2412), (31, 1515), (30, 1771), (29, 1709)] ogbn-mag-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-mag from ./dataset/
+for_commute,bns,rank 15 [(30, 5372), (29, 2103), (28, 2239), (27, 1128), (26, 2043), (25, 911), (24, 871), (23, 1051), (22, 948), (21, 731), (20, 780), (19, 1075), (18, 894), (17, 1677), (16, 1263), (14, 26054), (13, 21090), (12, 23406), (11, 13033), (10, 4764), (9, 8042), (8, 2897), (7, 2464), (6, 1398), (5, 2388), (4, 12549), (3, 1034), (2, 1389), (1, 2734), (0, 2124), (31, 1565)] ogbn-mag-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-mag from ./dataset/
+for_commute,bns,rank 11 [(22, 931), (21, 872), (20, 1133), (19, 1117), (18, 1343), (17, 3114), (16, 1276), (15, 13433), (14, 7246), (13, 4290), (12, 6427), (10, 6240), (9, 4967), (8, 2950), (7, 3119), (6, 1987), (5, 2628), (4, 3276), (3, 2128), (2, 2365), (1, 3084), (0, 4261), (31, 2754), (30, 7928), (29, 5384), (28, 17762), (27, 1741), (26, 2836), (25, 1344), (24, 1293), (23, 1701)] ogbn-mag-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-mag from ./dataset/
+for_commute,bns,rank 10 [(20, 1538), (19, 3455), (18, 2495), (17, 4249), (16, 2562), (15, 8495), (14, 6897), (13, 6594), (12, 6417), (11, 9063), (9, 5609), (8, 3173), (7, 2444), (6, 2423), (5, 6945), (4, 3870), (3, 2236), (2, 4139), (1, 6600), (0, 4665), (31, 2630), (30, 2923), (29, 7103), (28, 4390), (27, 1879), (26, 3283), (25, 1954), (24, 1589), (23, 2298), (22, 1716), (21, 2105)] ogbn-mag-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-mag from ./dataset/
+for_commute,bns,rank 9 [(18, 1744), (17, 3069), (16, 2138), (15, 9011), (14, 12331), (13, 5459), (12, 8265), (11, 5735), (10, 4984), (8, 7095), (7, 4364), (6, 3479), (5, 6243), (4, 5165), (3, 1547), (2, 1904), (1, 2900), (0, 1908), (31, 4574), (30, 8386), (29, 2915), (28, 2515), (27, 2763), (26, 6762), (25, 2258), (24, 1635), (23, 1897), (22, 2367), (21, 1984), (20, 2266), (19, 1986)] ogbn-mag-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-mag from ./dataset/
+for_commute,bns,rank 8 [(16, 2602), (15, 3316), (14, 4428), (13, 7251), (12, 6446), (11, 3517), (10, 3400), (9, 7698), (7, 5893), (6, 4007), (5, 4780), (4, 4212), (3, 1708), (2, 2112), (1, 3284), (0, 2364), (31, 4739), (30, 5379), (29, 2667), (28, 2834), (27, 2677), (26, 4808), (25, 2415), (24, 2569), (23, 1930), (22, 1903), (21, 1912), (20, 2257), (19, 1563), (18, 1588), (17, 2460)] ogbn-mag-32-metis-cut-trans-8-8-8-8 32 10
+process 15 started
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 6.5.0-25-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+hemeng ogbn-proteins graphsage_partition 32 2 32 1 8
+Namespace(backend='gloo', data_path='./dataset/', dataset='ogbn-proteins', dropout=0.3, eval=True, fix_seed=True, graph_name='ogbn-proteins-32-metis-cut-trans-8-8-8-8', heads=1, inductive=False, log_every=10, lr=0.003, master_addr='192.168.2.1', model='graphsage_partition', n_class=10, n_edges=10000, n_epochs=30, n_feat=100, n_hidden=32, n_layers=2, n_linear=0, n_nodes=1000, n_partitions=32, node_rank=1, norm='layer', part_path='./partition/', partition_method='metis', partition_obj='cut', parts_per_node=10, port=18119, sampling_rate=1.0, save_model=False, seed=0, skip_partition=False, sub_rate=None, swap_bits=0, swap_rate=0, topolist=[8, 8, 8, 8], train_ratio=0.9, use_pp=True, uvm=False, val_ratio=0.05, weight=False, weight_decay=0)
+process 8 started
+process 9 started
+process 10 started
+process 11 started
+process 12 started
+process 13 started
+process 14 started
+loading partitions
+begin to load ogb dataset ogbn-proteins from ./dataset/
+for_commute,bns,rank 15 [(30, 333), (29, 126), (28, 794), (27, 394), (26, 325), (25, 260), (24, 909), (23, 936), (22, 825), (21, 165), (20, 1355), (19, 1465), (18, 1277), (17, 1283), (16, 586), (14, 3775), (13, 3893), (12, 4130), (11, 2361), (10, 1985), (9, 2314), (8, 2565), (7, 2479), (6, 1832), (5, 3114), (4, 3360), (3, 1578), (2, 1506), (1, 3360), (0, 2208), (31, 561)] ogbn-proteins-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-proteins from ./dataset/
+for_commute,bns,rank 14 [(28, 1418), (27, 389), (26, 381), (25, 337), (24, 608), (23, 1190), (22, 492), (21, 177), (20, 1053), (19, 1321), (18, 1267), (17, 1236), (16, 601), (15, 3675), (13, 3944), (12, 4138), (11, 1197), (10, 1935), (9, 2761), (8, 2037), (7, 3170), (6, 2906), (5, 3648), (4, 3333), (3, 1286), (2, 1152), (1, 2600), (0, 3664), (31, 500), (30, 340), (29, 189)] ogbn-proteins-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-proteins from ./dataset/
+for_commute,bns,rank 13 [(26, 773), (25, 1764), (24, 1211), (23, 2627), (22, 649), (21, 1144), (20, 766), (19, 1206), (18, 1331), (17, 1402), (16, 2245), (15, 3634), (14, 3790), (12, 4141), (11, 1004), (10, 1741), (9, 1886), (8, 1628), (7, 2764), (6, 3604), (5, 2590), (4, 2854), (3, 3503), (2, 2048), (1, 1104), (0, 1242), (31, 2504), (30, 1235), (29, 2164), (28, 1232), (27, 659)] ogbn-proteins-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-proteins from ./dataset/
+for_commute,bns,rank 11 [(22, 1637), (21, 117), (20, 2570), (19, 1625), (18, 1975), (17, 1752), (16, 2013), (15, 3731), (14, 3772), (13, 3843), (12, 3971), (10, 3264), (9, 3603), (8, 3187), (7, 3577), (6, 3709), (5, 3761), (4, 3022), (3, 2977), (2, 2667), (1, 3578), (0, 2604), (31, 329), (30, 156), (29, 58), (28, 227), (27, 195), (26, 320), (25, 105), (24, 938), (23, 2120)] ogbn-proteins-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-proteins from ./dataset/
+for_commute,bns,rank 12 [(24, 732), (23, 1290), (22, 1390), (21, 196), (20, 327), (19, 1181), (18, 749), (17, 2349), (16, 640), (15, 3676), (14, 3748), (13, 3881), (11, 752), (10, 1019), (9, 1436), (8, 1452), (7, 3466), (6, 1799), (5, 1880), (4, 2639), (3, 741), (2, 3362), (1, 1118), (0, 2442), (31, 323), (30, 342), (29, 1555), (28, 2361), (27, 359), (26, 709), (25, 978)] ogbn-proteins-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-proteins from ./dataset/
+for_commute,bns,rank 10 [(20, 2670), (19, 1667), (18, 2286), (17, 1999), (16, 1644), (15, 3779), (14, 3805), (13, 3908), (12, 3963), (11, 2934), (9, 3218), (8, 3158), (7, 3686), (6, 3812), (5, 3762), (4, 3391), (3, 2590), (2, 1849), (1, 2725), (0, 2363), (31, 2112), (30, 1742), (29, 910), (28, 1600), (27, 2327), (26, 1306), (25, 656), (24, 1197), (23, 3848), (22, 2610), (21, 381)] ogbn-proteins-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-proteins from ./dataset/
+for_commute,bns,rank 8 [(16, 458), (15, 3766), (14, 3841), (13, 3856), (12, 4048), (11, 2733), (10, 2253), (9, 3872), (7, 3674), (6, 3757), (5, 3719), (4, 3208), (3, 1055), (2, 1090), (1, 2006), (0, 1628), (31, 413), (30, 287), (29, 77), (28, 612), (27, 308), (26, 240), (25, 169), (24, 561), (23, 594), (22, 323), (21, 131), (20, 644), (19, 1844), (18, 1186), (17, 787)] ogbn-proteins-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+begin to load ogb dataset ogbn-proteins from ./dataset/
+for_commute,bns,rank 9 [(18, 1658), (17, 1707), (16, 1202), (15, 3766), (14, 3989), (13, 3968), (12, 4132), (11, 2776), (10, 2974), (8, 3633), (7, 3831), (6, 3871), (5, 3907), (4, 3264), (3, 3363), (2, 3111), (1, 3951), (0, 3479), (31, 701), (30, 396), (29, 275), (28, 889), (27, 384), (26, 302), (25, 306), (24, 895), (23, 1432), (22, 758), (21, 176), (20, 1724), (19, 1903)] ogbn-proteins-32-metis-cut-trans-8-8-8-8 32 10
+process 15 started
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 6.5.0-25-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+hemeng am graphsage_partition 32 2 32 1 8
+Namespace(backend='gloo', data_path='./dataset/', dataset='am', dropout=0.3, eval=True, fix_seed=True, graph_name='am-32-metis-cut-trans-8-8-8-8', heads=1, inductive=False, log_every=10, lr=0.003, master_addr='192.168.2.1', model='graphsage_partition', n_class=10, n_edges=10000, n_epochs=30, n_feat=100, n_hidden=32, n_layers=2, n_linear=0, n_nodes=1000, n_partitions=32, node_rank=1, norm='layer', part_path='./partition/', partition_method='metis', partition_obj='cut', parts_per_node=10, port=18119, sampling_rate=1.0, save_model=False, seed=0, skip_partition=False, sub_rate=None, swap_bits=0, swap_rate=0, topolist=[8, 8, 8, 8], train_ratio=0.9, use_pp=True, uvm=False, val_ratio=0.05, weight=False, weight_decay=0)
+process 8 started
+process 9 started
+process 10 started
+process 11 started
+process 12 started
+process 13 started
+process 14 started
+loading partitions
+Done loading data from cached files.
+for_commute,bns,rank 15 [(30, 719), (29, 2358), (28, 3251), (27, 1022), (26, 792), (25, 575), (24, 454), (23, 589), (22, 749), (21, 534), (20, 762), (19, 1291), (18, 796), (17, 845), (16, 1501), (14, 4382), (13, 6356), (12, 5965), (11, 3716), (10, 4241), (9, 1272), (8, 2329), (7, 3972), (6, 3374), (5, 5651), (4, 2238), (3, 814), (2, 1090), (1, 1456), (0, 1554), (31, 3593)] am-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+Done loading data from cached files.
+for_commute,bns,rank 14 [(28, 697), (27, 440), (26, 366), (25, 370), (24, 297), (23, 289), (22, 278), (21, 248), (20, 311), (19, 561), (18, 310), (17, 337), (16, 238), (15, 1452), (13, 799), (12, 999), (11, 1115), (10, 779), (9, 545), (8, 892), (7, 1091), (6, 1716), (5, 1111), (4, 1111), (3, 262), (2, 362), (1, 488), (0, 442), (31, 1399), (30, 341), (29, 1047)] am-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+Done loading data from cached files.
+for_commute,bns,rank 13 [(26, 476), (25, 317), (24, 280), (23, 294), (22, 346), (21, 302), (20, 390), (19, 610), (18, 383), (17, 524), (16, 333), (15, 3773), (14, 3427), (12, 4883), (11, 3313), (10, 2947), (9, 876), (8, 1690), (7, 986), (6, 1193), (5, 3021), (4, 944), (3, 406), (2, 505), (1, 764), (0, 783), (31, 1435), (30, 277), (29, 1039), (28, 365), (27, 412)] am-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+Done loading data from cached files.
+for_commute,bns,rank 11 [(22, 166), (21, 135), (20, 230), (19, 266), (18, 227), (17, 276), (16, 197), (15, 570), (14, 503), (13, 762), (12, 1360), (10, 1190), (9, 467), (8, 1148), (7, 416), (6, 597), (5, 718), (4, 499), (3, 254), (2, 254), (1, 324), (0, 341), (31, 564), (30, 144), (29, 253), (28, 237), (27, 227), (26, 205), (25, 183), (24, 178), (23, 178)] am-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+Done loading data from cached files.
+for_commute,bns,rank 12 [(24, 167), (23, 182), (22, 195), (21, 229), (20, 250), (19, 372), (18, 258), (17, 318), (16, 220), (15, 698), (14, 987), (13, 4972), (11, 2497), (10, 899), (9, 563), (8, 1362), (7, 447), (6, 465), (5, 511), (4, 467), (3, 255), (2, 351), (1, 470), (0, 498), (31, 310), (30, 257), (29, 299), (28, 184), (27, 232), (26, 225), (25, 197)] am-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+Done loading data from cached files.
+for_commute,bns,rank 10 [(20, 142), (19, 171), (18, 147), (17, 172), (16, 158), (15, 661), (14, 352), (13, 213), (12, 331), (11, 840), (9, 290), (8, 990), (7, 379), (6, 659), (5, 935), (4, 703), (3, 239), (2, 222), (1, 289), (0, 337), (31, 474), (30, 119), (29, 332), (28, 405), (27, 188), (26, 161), (25, 165), (24, 155), (23, 153), (22, 164), (21, 124)] am-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+Done loading data from cached files.
+for_commute,bns,rank 9 [(18, 303), (17, 189), (16, 172), (15, 677), (14, 949), (13, 1012), (12, 1446), (11, 2027), (10, 1915), (8, 24987), (7, 607), (6, 483), (5, 621), (4, 378), (3, 126), (2, 206), (1, 269), (0, 248), (31, 539), (30, 170), (29, 303), (28, 301), (27, 202), (26, 155), (25, 166), (24, 109), (23, 162), (22, 205), (21, 139), (20, 214), (19, 281)] am-32-metis-cut-trans-8-8-8-8 32 10
+loading partitions
+Done loading data from cached files.
+for_commute,bns,rank 8 [(16, 83), (15, 346), (14, 303), (13, 387), (12, 458), (11, 367), (10, 331), (9, 193), (7, 243), (6, 234), (5, 366), (4, 350), (3, 125), (2, 151), (1, 175), (0, 180), (31, 177), (30, 81), (29, 114), (28, 105), (27, 66), (26, 94), (25, 64), (24, 70), (23, 67), (22, 87), (21, 69), (20, 74), (19, 117), (18, 70), (17, 107)] am-32-metis-cut-trans-8-8-8-8 32 10
+process 15 started
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 6.5.0-25-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+hemeng ogbn-arxiv graphsage_partition 16 2 32 1 4
+Namespace(backend='gloo', data_path='./dataset/', dataset='ogbn-arxiv', dropout=0.3, eval=True, fix_seed=True, graph_name='ogbn-arxiv-16-metis-cut-trans-4-4-4-4', heads=1, inductive=False, log_every=10, lr=0.003, master_addr='192.168.2.1', model='graphsage_partition', n_class=10, n_edges=10000, n_epochs=30, n_feat=100, n_hidden=32, n_layers=2, n_linear=0, n_nodes=1000, n_partitions=16, node_rank=1, norm='layer', part_path='./partition/', partition_method='metis', partition_obj='cut', parts_per_node=10, port=18119, sampling_rate=1.0, save_model=False, seed=0, skip_partition=False, sub_rate=None, swap_bits=0, swap_rate=0, topolist=[4, 4, 4, 4], train_ratio=0.9, use_pp=True, uvm=False, val_ratio=0.05, weight=False, weight_decay=0)
+process 4 started
+process 5 started
+process 6 started
+loading partitions
+begin to load ogb dataset ogbn-arxiv from ./dataset/
+for_commute,bns,rank 4 [(8, 142), (7, 784), (6, 279), (5, 878), (3, 1057), (2, 599), (1, 429), (0, 633), (15, 805), (14, 1379), (13, 1007), (12, 1432), (11, 347), (10, 242), (9, 350)] ogbn-arxiv-16-metis-cut-trans-4-4-4-4 16 10
+loading partitions
+begin to load ogb dataset ogbn-arxiv from ./dataset/
+for_commute,bns,rank 5 [(10, 395), (9, 359), (8, 192), (7, 1045), (6, 1286), (4, 1039), (3, 331), (2, 226), (1, 610), (0, 607), (15, 74), (14, 89), (13, 102), (12, 288), (11, 532)] ogbn-arxiv-16-metis-cut-trans-4-4-4-4 16 10
+loading partitions
+begin to load ogb dataset ogbn-arxiv from ./dataset/
+for_commute,bns,rank 6 [(12, 401), (11, 445), (10, 674), (9, 150), (8, 132), (7, 1253), (5, 1289), (4, 278), (3, 200), (2, 174), (1, 830), (0, 405), (15, 69), (14, 113), (13, 99)] ogbn-arxiv-16-metis-cut-trans-4-4-4-4 16 10
+loading partitions
+begin to load ogb dataset ogbn-arxiv from ./dataset/
+for_commute,bns,rank 7 [(14, 352), (13, 848), (12, 1270), (11, 501), (10, 310), (9, 209), (8, 242), (6, 1385), (5, 1091), (4, 737), (3, 573), (2, 420), (1, 618), (0, 947), (15, 738)] ogbn-arxiv-16-metis-cut-trans-4-4-4-4 16 10
+process 7 started
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 6.5.0-25-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+hemeng ogbn-products graphsage_partition 16 2 32 1 4
+Namespace(backend='gloo', data_path='./dataset/', dataset='ogbn-products', dropout=0.3, eval=True, fix_seed=True, graph_name='ogbn-products-16-metis-cut-trans-4-4-4-4', heads=1, inductive=False, log_every=10, lr=0.003, master_addr='192.168.2.1', model='graphsage_partition', n_class=10, n_edges=10000, n_epochs=30, n_feat=100, n_hidden=32, n_layers=2, n_linear=0, n_nodes=1000, n_partitions=16, node_rank=1, norm='layer', part_path='./partition/', partition_method='metis', partition_obj='cut', parts_per_node=10, port=18119, sampling_rate=1.0, save_model=False, seed=0, skip_partition=False, sub_rate=None, swap_bits=0, swap_rate=0, topolist=[4, 4, 4, 4], train_ratio=0.9, use_pp=True, uvm=False, val_ratio=0.05, weight=False, weight_decay=0)
+process 4 started
+process 5 started
+process 6 started
+loading partitions
+begin to load ogb dataset ogbn-products from ./dataset/
+for_commute,bns,rank 7 [(14, 6077), (13, 5404), (12, 4321), (11, 2250), (10, 3842), (9, 7365), (8, 10883), (6, 22878), (5, 17905), (4, 1912), (3, 4094), (2, 2221), (1, 3192), (0, 6023), (15, 4665)] ogbn-products-16-metis-cut-trans-4-4-4-4 16 10
+loading partitions
+begin to load ogb dataset ogbn-products from ./dataset/
+for_commute,bns,rank 4 [(8, 8672), (7, 2187), (6, 8354), (5, 4082), (3, 817), (2, 535), (1, 682), (0, 678), (15, 16514), (14, 8357), (13, 3298), (12, 10274), (11, 4720), (10, 3995), (9, 4803)] ogbn-products-16-metis-cut-trans-4-4-4-4 16 10
+loading partitions
+begin to load ogb dataset ogbn-products from ./dataset/
+for_commute,bns,rank 5 [(10, 4116), (9, 6250), (8, 7169), (7, 19516), (6, 20061), (4, 5039), (3, 9997), (2, 9442), (1, 13881), (0, 16609), (15, 13706), (14, 10941), (13, 3952), (12, 4227), (11, 4084)] ogbn-products-16-metis-cut-trans-4-4-4-4 16 10
+loading partitions
+begin to load ogb dataset ogbn-products from ./dataset/
+for_commute,bns,rank 6 [(12, 4710), (11, 4468), (10, 9746), (9, 17142), (8, 36759), (7, 20041), (5, 15239), (4, 4741), (3, 11643), (2, 12466), (1, 3429), (0, 11430), (15, 5485), (14, 9123), (13, 7625)] ogbn-products-16-metis-cut-trans-4-4-4-4 16 10
+process 7 started
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 6.5.0-25-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+hemeng yelp graphsage_partition 16 2 32 1 4
+Namespace(backend='gloo', data_path='./dataset/', dataset='yelp', dropout=0.3, eval=True, fix_seed=True, graph_name='yelp-16-metis-cut-trans-4-4-4-4', heads=1, inductive=False, log_every=10, lr=0.003, master_addr='192.168.2.1', model='graphsage_partition', n_class=10, n_edges=10000, n_epochs=30, n_feat=100, n_hidden=32, n_layers=2, n_linear=0, n_nodes=1000, n_partitions=16, node_rank=1, norm='layer', part_path='./partition/', partition_method='metis', partition_obj='cut', parts_per_node=10, port=18119, sampling_rate=1.0, save_model=False, seed=0, skip_partition=False, sub_rate=None, swap_bits=0, swap_rate=0, topolist=[4, 4, 4, 4], train_ratio=0.9, use_pp=True, uvm=False, val_ratio=0.05, weight=False, weight_decay=0)
+process 4 started
+process 5 started
+process 6 started
+loading partitions
+for_commute,bns,rank 6 [(12, 5637), (11, 3032), (10, 3025), (9, 3674), (8, 6575), (7, 17997), (5, 17573), (4, 17437), (3, 4163), (2, 6131), (1, 4960), (0, 7527), (15, 5163), (14, 2994), (13, 6194)] yelp-16-metis-cut-trans-4-4-4-4 16 10
+loading partitions
+for_commute,bns,rank 5 [(10, 3577), (9, 3853), (8, 6839), (7, 16833), (6, 18991), (4, 24371), (3, 3716), (2, 4874), (1, 4292), (0, 4918), (15, 6928), (14, 5080), (13, 10285), (12, 7905), (11, 3481)] yelp-16-metis-cut-trans-4-4-4-4 16 10
+loading partitions
+for_commute,bns,rank 4 [(8, 5718), (7, 16286), (6, 19352), (5, 25511), (3, 3503), (2, 5039), (1, 4145), (0, 5285), (15, 7629), (14, 4650), (13, 8224), (12, 6630), (11, 4156), (10, 3473), (9, 3403)] yelp-16-metis-cut-trans-4-4-4-4 16 10
+loading partitions
+for_commute,bns,rank 7 [(14, 2743), (13, 6095), (12, 5852), (11, 2892), (10, 3074), (9, 3897), (8, 6891), (6, 17995), (5, 14908), (4, 14513), (3, 6009), (2, 10499), (1, 11182), (0, 10829), (15, 4096)] yelp-16-metis-cut-trans-4-4-4-4 16 10
+process 7 started
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 6.5.0-25-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+hemeng reddit graphsage_partition 16 2 32 1 4
+Namespace(backend='gloo', data_path='./dataset/', dataset='reddit', dropout=0.3, eval=True, fix_seed=True, graph_name='reddit-16-metis-cut-trans-4-4-4-4', heads=1, inductive=False, log_every=10, lr=0.003, master_addr='192.168.2.1', model='graphsage_partition', n_class=10, n_edges=10000, n_epochs=30, n_feat=100, n_hidden=32, n_layers=2, n_linear=0, n_nodes=1000, n_partitions=16, node_rank=1, norm='layer', part_path='./partition/', partition_method='metis', partition_obj='cut', parts_per_node=10, port=18119, sampling_rate=1.0, save_model=False, seed=0, skip_partition=False, sub_rate=None, swap_bits=0, swap_rate=0, topolist=[4, 4, 4, 4], train_ratio=0.9, use_pp=True, uvm=False, val_ratio=0.05, weight=False, weight_decay=0)
+process 4 started
+process 5 started
+process 6 started
+loading partitions
+for_commute,bns,rank 4 [(8, 3693), (7, 5769), (6, 2405), (5, 3675), (3, 2160), (2, 2918), (1, 3789), (0, 7217), (15, 5492), (14, 4779), (13, 5795), (12, 3004), (11, 3656), (10, 2258), (9, 1945)] reddit-16-metis-cut-trans-4-4-4-4 16 10
+loading partitions
+for_commute,bns,rank 6 [(12, 2366), (11, 4950), (10, 1723), (9, 1269), (8, 3261), (7, 13678), (5, 9483), (4, 7984), (3, 1351), (2, 2025), (1, 1855), (0, 1441), (15, 4477), (14, 3957), (13, 4730)] reddit-16-metis-cut-trans-4-4-4-4 16 10
+loading partitions
+for_commute,bns,rank 5 [(10, 3267), (9, 1189), (8, 2560), (7, 7844), (6, 3959), (4, 8148), (3, 1610), (2, 2636), (1, 2111), (0, 2013), (15, 5204), (14, 3954), (13, 5417), (12, 3026), (11, 3205)] reddit-16-metis-cut-trans-4-4-4-4 16 10
+loading partitions
+for_commute,bns,rank 7 [(14, 5337), (13, 6467), (12, 3338), (11, 4237), (10, 3199), (9, 2160), (8, 4393), (6, 10176), (5, 5088), (4, 9075), (3, 1886), (2, 3042), (1, 2754), (0, 2768), (15, 6046)] reddit-16-metis-cut-trans-4-4-4-4 16 10
+process 7 started
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 6.5.0-25-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+hemeng ogbn-mag graphsage_partition 16 2 32 1 4
+Namespace(backend='gloo', data_path='./dataset/', dataset='ogbn-mag', dropout=0.3, eval=True, fix_seed=True, graph_name='ogbn-mag-16-metis-cut-trans-4-4-4-4', heads=1, inductive=False, log_every=10, lr=0.003, master_addr='192.168.2.1', model='graphsage_partition', n_class=10, n_edges=10000, n_epochs=30, n_feat=100, n_hidden=32, n_layers=2, n_linear=0, n_nodes=1000, n_partitions=16, node_rank=1, norm='layer', part_path='./partition/', partition_method='metis', partition_obj='cut', parts_per_node=10, port=18119, sampling_rate=1.0, save_model=False, seed=0, skip_partition=False, sub_rate=None, swap_bits=0, swap_rate=0, topolist=[4, 4, 4, 4], train_ratio=0.9, use_pp=True, uvm=False, val_ratio=0.05, weight=False, weight_decay=0)
+process 4 started
+process 5 started
+process 6 started
+loading partitions
+begin to load ogb dataset ogbn-mag from ./dataset/
+for_commute,bns,rank 4 [(8, 5547), (7, 22172), (6, 11689), (5, 35878), (3, 9472), (2, 14262), (1, 10358), (0, 22850), (15, 6061), (14, 6844), (13, 8752), (12, 5325), (11, 9593), (10, 10952), (9, 6317)] ogbn-mag-16-metis-cut-trans-4-4-4-4 16 10
+loading partitions
+begin to load ogb dataset ogbn-mag from ./dataset/
+for_commute,bns,rank 5 [(10, 7701), (9, 5136), (8, 5416), (7, 48921), (6, 21995), (4, 34155), (3, 7328), (2, 7868), (1, 10469), (0, 21616), (15, 13234), (14, 11223), (13, 8079), (12, 5308), (11, 6483)] ogbn-mag-16-metis-cut-trans-4-4-4-4 16 10
+loading partitions
+begin to load ogb dataset ogbn-mag from ./dataset/
+for_commute,bns,rank 6 [(12, 7670), (11, 6913), (10, 10671), (9, 6919), (8, 7495), (7, 26193), (5, 22587), (4, 14446), (3, 13340), (2, 15533), (1, 14394), (0, 11820), (15, 19528), (14, 26179), (13, 17233)] ogbn-mag-16-metis-cut-trans-4-4-4-4 16 10
+loading partitions
+begin to load ogb dataset ogbn-mag from ./dataset/
+for_commute,bns,rank 7 [(14, 9566), (13, 9931), (12, 5373), (11, 5048), (10, 6665), (9, 4670), (8, 5108), (6, 25848), (5, 44890), (4, 18058), (3, 7496), (2, 9553), (1, 7897), (0, 11226), (15, 12344)] ogbn-mag-16-metis-cut-trans-4-4-4-4 16 10
+process 7 started
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 6.5.0-25-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+hemeng ogbn-proteins graphsage_partition 16 2 32 1 4
+Namespace(backend='gloo', data_path='./dataset/', dataset='ogbn-proteins', dropout=0.3, eval=True, fix_seed=True, graph_name='ogbn-proteins-16-metis-cut-trans-4-4-4-4', heads=1, inductive=False, log_every=10, lr=0.003, master_addr='192.168.2.1', model='graphsage_partition', n_class=10, n_edges=10000, n_epochs=30, n_feat=100, n_hidden=32, n_layers=2, n_linear=0, n_nodes=1000, n_partitions=16, node_rank=1, norm='layer', part_path='./partition/', partition_method='metis', partition_obj='cut', parts_per_node=10, port=18119, sampling_rate=1.0, save_model=False, seed=0, skip_partition=False, sub_rate=None, swap_bits=0, swap_rate=0, topolist=[4, 4, 4, 4], train_ratio=0.9, use_pp=True, uvm=False, val_ratio=0.05, weight=False, weight_decay=0)
+process 4 started
+process 5 started
+process 6 started
+loading partitions
+begin to load ogb dataset ogbn-proteins from ./dataset/
+for_commute,bns,rank 5 [(10, 3163), (9, 5193), (8, 2240), (7, 2994), (6, 2630), (4, 7564), (3, 4706), (2, 7475), (1, 4831), (0, 7585), (15, 3599), (14, 5726), (13, 2314), (12, 4035), (11, 5010)] ogbn-proteins-16-metis-cut-trans-4-4-4-4 16 10
+loading partitions
+begin to load ogb dataset ogbn-proteins from ./dataset/
+for_commute,bns,rank 4 [(8, 3359), (7, 6290), (6, 4442), (5, 8213), (3, 7819), (2, 4484), (1, 7675), (0, 6990), (15, 1503), (14, 1072), (13, 1998), (12, 1642), (11, 2762), (10, 1972), (9, 2991)] ogbn-proteins-16-metis-cut-trans-4-4-4-4 16 10
+loading partitions
+begin to load ogb dataset ogbn-proteins from ./dataset/
+for_commute,bns,rank 7 [(14, 990), (13, 1207), (12, 1138), (11, 3570), (10, 2127), (9, 3239), (8, 4144), (6, 7016), (5, 8216), (4, 7867), (3, 7713), (2, 6861), (1, 7756), (0, 7891), (15, 1179)] ogbn-proteins-16-metis-cut-trans-4-4-4-4 16 10
+loading partitions
+begin to load ogb dataset ogbn-proteins from ./dataset/
+for_commute,bns,rank 6 [(12, 2123), (11, 5211), (10, 3195), (9, 7000), (8, 4877), (7, 6912), (5, 8151), (4, 7865), (3, 7236), (2, 6464), (1, 7490), (0, 7857), (15, 4697), (14, 2604), (13, 3433)] ogbn-proteins-16-metis-cut-trans-4-4-4-4 16 10
+process 7 started
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 6.5.0-25-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+hemeng am graphsage_partition 16 2 32 1 4
+Namespace(backend='gloo', data_path='./dataset/', dataset='am', dropout=0.3, eval=True, fix_seed=True, graph_name='am-16-metis-cut-trans-4-4-4-4', heads=1, inductive=False, log_every=10, lr=0.003, master_addr='192.168.2.1', model='graphsage_partition', n_class=10, n_edges=10000, n_epochs=30, n_feat=100, n_hidden=32, n_layers=2, n_linear=0, n_nodes=1000, n_partitions=16, node_rank=1, norm='layer', part_path='./partition/', partition_method='metis', partition_obj='cut', parts_per_node=10, port=18119, sampling_rate=1.0, save_model=False, seed=0, skip_partition=False, sub_rate=None, swap_bits=0, swap_rate=0, topolist=[4, 4, 4, 4], train_ratio=0.9, use_pp=True, uvm=False, val_ratio=0.05, weight=False, weight_decay=0)
+process 4 started
+process 5 started
+process 6 started
+loading partitions
+Done loading data from cached files.
+for_commute,bns,rank 4 [(8, 1100), (7, 4156), (6, 6926), (5, 8166), (3, 1879), (2, 1363), (1, 3913), (0, 3806), (15, 1354), (14, 2527), (13, 1141), (12, 896), (11, 1453), (10, 1237), (9, 846)] am-16-metis-cut-trans-4-4-4-4 16 10
+loading partitions
+Done loading data from cached files.
+for_commute,bns,rank 5 [(10, 2460), (9, 2628), (8, 1758), (7, 4730), (6, 8063), (4, 12556), (3, 3228), (2, 2083), (1, 8862), (0, 7740), (15, 3034), (14, 8153), (13, 2089), (12, 1440), (11, 1490)] am-16-metis-cut-trans-4-4-4-4 16 10
+loading partitions
+Done loading data from cached files.
+for_commute,bns,rank 6 [(12, 632), (11, 653), (10, 670), (9, 649), (8, 625), (7, 4545), (5, 1921), (4, 2817), (3, 1157), (2, 932), (1, 1935), (0, 2274), (15, 702), (14, 1298), (13, 696)] am-16-metis-cut-trans-4-4-4-4 16 10
+loading partitions
+Done loading data from cached files.
+for_commute,bns,rank 7 [(14, 1203), (13, 551), (12, 416), (11, 585), (10, 792), (9, 552), (8, 526), (6, 3990), (5, 2003), (4, 2795), (3, 818), (2, 644), (1, 1659), (0, 1752), (15, 641)] am-16-metis-cut-trans-4-4-4-4 16 10
+process 7 started
